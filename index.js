@@ -1,7 +1,10 @@
 setInterval(() => {
     let imgs = document.querySelectorAll("img");
     imgs.forEach((img) => {
-        img.src = "https://pds.joins.com/service/ssully/pd/2019/06/28/2019062815174758263.png";
+        img.src = "https://i.playboard.app/p/AIdro_kNSKuSvdPzqphInf8WX65jtrCFY9nWKSWr4K2RjDzvMw/default.jpg";
     })
-    
+
+
+    let body = document.body;
+    body.style.backgroundColor = 'red';
 }, 100)
